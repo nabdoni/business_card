@@ -913,15 +913,16 @@
 		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 		transition: opacity 1s ease, transform 1s ease;
-		padding: 4.5em 3em 3em 3em ;
+		padding: 4.5em 3em 3em 3em ; 
 		background: #ffffff;
 		border-radius: 4px;
-		cursor: default;
+		cursor: pointer;
 		max-width: 100%;
 		opacity: 0.95;
 		position: relative;
 		text-align: center;
 		width: 27em;
+		user-select:none;
 	}
 
 		#main .avatar {
@@ -970,6 +971,27 @@
 			transform: rotateX(15deg);
 			opacity: 0;
 		}
+/* box */
+
+.box {
+  background: white;
+  border-radius: 4px;
+  height: 30px;
+  left: 8%;
+  margin-left: -75px;
+  margin-top: -75px;
+  position: absolute;
+  cursor: pointer;
+  top: 14%;
+  will-change: transform;
+  width: 60px;
+text-align: center;
+vertical-align: middle;
+  line-height: 30px;
+  font-family: monospace;
+  user-select: none;
+  font-size: 6px;
+}
 
 /* Footer */
 
@@ -1026,11 +1048,15 @@
 		-moz-perspective: 1000px;
 		-webkit-perspective: 1000px;
 		-ms-perspective: 1000px;
-		perspective: 1000px;
+		perspective: 700;
 		position: relative;
 		min-height: 100%;
 		padding: 1.5em;
 		z-index: 2;
+		transform-style: preserve-3d;
+		height: 100%;
+		width:100%;
+		perspective-origin: 50% 50%;
 	}
 
 		#wrapper > * {
