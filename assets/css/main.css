@@ -1,11 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
 
-/*
-	Identity by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 /* Icon (alt) */
 
@@ -971,27 +966,6 @@
 			transform: rotateX(15deg);
 			opacity: 0;
 		}
-/* box */
-
-.box {
-  background: white;
-  border-radius: 4px;
-  height: 30px;
-  left: 8%;
-  margin-left: -75px;
-  margin-top: -75px;
-  position: absolute;
-  cursor: pointer;
-  top: 14%;
-  will-change: transform;
-  width: 60px;
-text-align: center;
-vertical-align: middle;
-  line-height: 30px;
-  font-family: monospace;
-  user-select: none;
-  font-size: 6px;
-}
 
 /* Footer */
 
