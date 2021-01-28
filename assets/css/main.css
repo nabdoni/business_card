@@ -935,7 +935,16 @@
 			position: relative;
 			display: block;
 			margin-bottom: 1.5em;
+			transition: transform 0.2s;
+			-ms-transform: scale(1); 
+			transform: scale(1); 
+
 		}
+			#main .avatar:hover {
+				-ms-transform: scale(1.1);
+		 		transform: scale(1.1); 
+			  	transition: transform 0.2s; 
+	}
 
 			#main .avatar img {
 				display: block;
