@@ -987,10 +987,10 @@
 		}
 
 		body.is-preload #main {
-			-moz-transform: rotateX(15deg);
+/* commenting this out temporarily for unit test			-moz-transform: rotateX(15deg);
 			-webkit-transform: rotateX(15deg);
 			-ms-transform: rotateX(15deg);
-			transform: rotateX(15deg);
+			transform: rotateX(15deg); */
 			opacity: 0;
 			will-change: transform;
 		}
