@@ -77,16 +77,15 @@
 			<script>
 				$("#formButton").click(function(){
 			       		 $("#form1").slideToggle('slow');
-			  	});
-				$("button").on("click", function() {
-  					var el = $(this);
+					  					var el = $(this);
   					if (el.text() == el.data("Hide the form")) {
    				 		el.text(el.data("Click me"));
  					 } else {
   				 		 el.data("Click me", el.text());
-  				 	 	el.text(el.data("Hide me"));
+  				 	 	el.text(el.data("Hide the form"));
  				 	}
-				});
+			  	});
+
 				if ('addEventListener' in window) {
 					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
 					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
