@@ -75,15 +75,17 @@
 
 		<!-- Scripts -->
 			<script>
-				$("#formButton").click(function(){
-			       		 $("#form1").slideToggle('slow');
-					  					var el = $(this);
+				$("#formButton").on("click", function() {
+  					var el = $(this);
   					if (el.text() == el.data("Hide the form")) {
    				 		el.text(el.data("Click me"));
  					 } else {
   				 		 el.data("Click me", el.text());
   				 	 	el.text(el.data("Hide the form"));
  				 	}
+				});
+				$("#formButton").click(function(){
+			       		 $("#form1").slideToggle('slow');
 			  	});
 
 				if ('addEventListener' in window) {
