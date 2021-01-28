@@ -930,10 +930,10 @@
 		-webkit-transform: rotateX(0deg);
 		-ms-transform: rotateX(0deg);
 		transform: rotateX(0deg);
-		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
-		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
-		transition: opacity 1s ease, transform 1s ease;
+		-moz-transition: opacity 1s, -moz-transform 1s;
+		-webkit-transition: opacity 1s, -webkit-transform 1s;
+		-ms-transition: opacity 1s, -ms-transform 1s;
+		transition: opacity 1s, transform 1s;
 		padding: 4.5em 3em 3em 3em ; 
 		background: #ffffff;
 		border-radius: 4px;
