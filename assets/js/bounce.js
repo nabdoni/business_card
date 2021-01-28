@@ -1,6 +1,6 @@
 //---Variables
 var doc    = document,
-    box    = doc.querySelector("#box"),
+    box    = doc.querySelector("#main"),
     startX = 0,
     startY = 0,
     posX   = 0,
