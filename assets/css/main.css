@@ -926,10 +926,10 @@
 		-webkit-transform-origin: 50% 50%;
 		-ms-transform-origin: 50% 50%;
 		transform-origin: 50% 50%;
-		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
+/* commenting this out for true bounciness		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
 		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
-		transition: opacity 1s ease, transform 1s ease;
+		transition: opacity 1s ease, transform 1s ease; */
 		-moz-transform: rotateX(0deg);
 		-webkit-transform: rotateX(0deg);
 		-ms-transform: rotateX(0deg);
