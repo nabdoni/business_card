@@ -807,7 +807,15 @@
 		}
 
 /* Button */
-
+#sendButton {
+		color: #414f57;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 14pt;
+		font-weight: 300;
+		line-height: 2;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+}
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
@@ -832,8 +840,6 @@
 		cursor: pointer;
 		text-align: center;
 		text-decoration: none;
-		white-space: nowrap;
-		font: inherit;
 	}
 
 		input[type="submit"]:hover,
