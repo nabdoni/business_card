@@ -86,5 +86,6 @@ function updateTransform () {
 	box.style.MozTransform = transformStr;
 	box.style.WebkitTransform = transformStr;
 	box.style.transform = transformStr;
+	box.style.overflow = "hidden";
 
 }
