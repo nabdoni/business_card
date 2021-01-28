@@ -833,6 +833,7 @@
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
+		font: inherit;
 	}
 
 		input[type="submit"]:hover,
