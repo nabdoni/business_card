@@ -926,6 +926,14 @@
 		-webkit-transform-origin: 50% 50%;
 		-ms-transform-origin: 50% 50%;
 		transform-origin: 50% 50%;
+		-moz-transition: opacity ease, -moz-transform ease;
+		-webkit-transition: opacity ease, -webkit-transform ease;
+		-ms-transition: opacity ease, -ms-transform ease;
+		transition: opacity ease, transform ease;
+		-moz-transform: rotateX(0deg);
+		-webkit-transform: rotateX(0deg);
+		-ms-transform: rotateX(0deg);
+		transform: rotateX(0deg);
 		padding: 4.5em 3em 3em 3em ; 
 		background: #ffffff;
 		border-radius: 4px;
