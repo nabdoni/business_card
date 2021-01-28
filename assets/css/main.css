@@ -985,6 +985,7 @@
 			-ms-transform: rotateX(15deg);
 			transform: rotateX(15deg);
 			opacity: 0;
+			will-change: transform;
 		}
 
 /* Footer */
