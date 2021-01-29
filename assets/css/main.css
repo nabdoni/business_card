@@ -73,6 +73,21 @@
 
 /* Basic */
 
+#example {
+  position: relative;
+}
+#example-checkbox {
+  display: none;
+}
+#example-checkbox:checked + #example:after {
+  content: "Hide the form";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 @media screen and (min-width: 748px) {
 	#dragme {
 		position: fixed;
