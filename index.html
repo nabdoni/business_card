@@ -29,7 +29,7 @@
 
 						<h2>Want to work together?</h2>
 						<ul class="actions special">
-							<li><a type="button" class="button" id="formButton">Click me</a></li>
+							<li><a type="button" class="button" id="formButton">Contact me</a></li>
 						</ul>
 							<form name="contact" method="POST" data-netlify="true" id="form1">
 							<div class="fields">
@@ -75,15 +75,6 @@
 
 		<!-- Scripts -->
 			<script>
-				$("#formButton").click(function() {
-  					var el = $(this);
-  					if (el.text() == el.data("Hide the form")) {
-   				 		el.text(el.data("Click me"));
- 					 } else {
-  				 		 el.data("Click me", el.text());
-  				 	 	el.text(el.data("Hide the form"));
- 				 	}
-				});
 				$("#formButton").click(function(){
 			       		 $("#form1").slideToggle('slow');
 			  	});
