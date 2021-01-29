@@ -29,7 +29,7 @@
 						
 						<h2>Want to work together?</h2>
 						<ul class="actions special">
-							<li><a type="button" class="button" id="formButton"><input type="checkbox" id="example-checkbox"><label for="example" id="example">Contact me</label></a></li>
+							<li><a type="button" class="button" id="formButton" href="javascript:;" onclick="anchorChange();">Contact me</a></li>
 						</ul>
 							<form name="contact" method="POST" data-netlify="true" id="form1">
 							<div class="fields">
@@ -75,6 +75,14 @@
 
 		<!-- Scripts -->
 			<script>
+				function anchorChange() {
+					if ( $("#formButton").text("Contact me") {
+						$("#formButton").text("Hide the form");
+					}
+					else {
+						$("#formButton").text("Contact me");
+					}
+					});
 				$("#formButton").click(function(){
 			       		 $("#form1").slideToggle('slow');
 			  	});
