@@ -76,11 +76,15 @@
 		<!-- Scripts -->
 			<script>
 				function anchorChange() {
-					if ( $("#formButton").text("Contact me") ) {
-						$("#formButton").text("Hide the form");
-					}
-					else {
-						$("#formButton").text("Contact me");
+					switch ($("#formButton").text()) {
+						case 'Contact me':
+							$("#formButton").text("Hide the form");
+							break;
+						case 'Hide the form':
+							$("#formButton").text("Contact me");
+							break;
+						default:
+							console.log("Oops, something wrong with this button.");
 					}
 					};
 				$("#formButton").click(function(){
